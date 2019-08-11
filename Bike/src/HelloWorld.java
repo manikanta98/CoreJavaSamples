@@ -4,6 +4,7 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");
 		System.out.println("india");
+		System.out.println("Java ");
 		
 		
 }}
