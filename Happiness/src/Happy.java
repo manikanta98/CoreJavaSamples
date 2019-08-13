@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Happy {
 	public static void main(String args[]) {
+		int min,max,threshold;
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the length of the array:");
 		int length = s.nextInt();
@@ -13,7 +14,7 @@ public class Happy {
 			myArray[i] = s.nextInt();
 
 		}
-
+		s.close();
 		// System.out.println(Arrays.toString(myArray));
 
 		for (int i = 0; i < length; i++) {
@@ -28,14 +29,12 @@ public class Happy {
 		}
 
 		System.out.println();
-		int min,max;
+		
 		min=myArray[0];
 		max=myArray[length-1];
+		threshold=max-min;
 		
-		/*
-		 * System.out.println(myArray[0]); System.out.println(myArray[length-1]);
-		 */
-		
+		System.out.println("min and max");
 		System.out.println(min);
 		System.out.println(max);
 
@@ -49,7 +48,7 @@ public class Happy {
 			System.out.print(myArray[i] + " ");
 					}
 		
-
+		
 	}
 	
 }
