@@ -34,20 +34,18 @@ public class Happy {
 		max=myArray[length-1];
 		threshold=max-min;
 		
-		System.out.println("min and max");
-		System.out.println(min);
-		System.out.println(max);
-
-		// Displaying elements of array after sorting
-		System.out.println("Elements of array sorted in ascending order: ");
-		for (int i = 0; i < length; i++) {
-			/*
-			 * System.out.printf("min",+myArray[0]);
-			 * System.out.printf("max",+myArray[length-1]);
-			 */
-			System.out.print(myArray[i] + " ");
-					}
-		
+		/*
+		 * System.out.println("min and max"); System.out.println(min);
+		 * System.out.println(max);
+		 * 
+		 * // Displaying elements of array after sorting
+		 * System.out.println("Elements of array sorted in ascending order: "); for (int
+		 * i = 0; i < length; i++) {
+		 * 
+		 * System.out.print(myArray[i] + " "); }
+		 */		
+		System.out.println("\nminimun no");
+		System.out.println(threshold);       
 		
 	}
 	
